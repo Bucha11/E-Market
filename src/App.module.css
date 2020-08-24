@@ -1,5 +1,5 @@
 .App {
   display: grid;
   grid-template-columns: 1fr 1024px 1fr;
-  grid-template-rows: 46px 108px 12fr 2020px;
+  grid-template-rows: 46px;
 }

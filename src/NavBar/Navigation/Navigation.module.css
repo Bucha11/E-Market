@@ -19,3 +19,7 @@ h1 {
 h1 {
   font-size: 36px;
 }
+
+.active {
+  border-bottom: 3px solid #4cb1ca;
+}

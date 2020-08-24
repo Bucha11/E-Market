@@ -1,31 +1,38 @@
 import React from "react";
 import s from "./Navigation.module.css";
 
-import {
-  BrowserRouter as Router,
-    NavLink
-} from "react-router-dom"
+import { BrowserRouter as Router, NavLink } from "react-router-dom";
 
 export const Navigation = () => {
+  debugger;
   return (
-    <Router>
     <div className={s.navigation}>
       <div>
-        <NavLink to='/home'>Home</NavLink>
+        <NavLink to="/home" activeClassName={s.active}>
+          Home
+        </NavLink>
       </div>
       <div>
-        <NavLink to='/men'>Men</NavLink>
+        <NavLink to="/men" activeClassName={s.active}>
+          {" "}
+          Men
+        </NavLink>
       </div>
       <div>
-        <NavLink to='/women'>Women</NavLink>
+        <NavLink to="/women" activeClassName={s.active}>
+          Women
+        </NavLink>
       </div>
       <div>
-        <NavLink to='/other'>Other</NavLink>
+        <NavLink to="/other" activeClassName={s.active}>
+          Other
+        </NavLink>
       </div>
       <div>
-        <NavLink to='/purchase'>Purchase</NavLink>
+        <NavLink to="/purchase" activeClassName={s.active}>
+          Purchase
+        </NavLink>
       </div>
     </div>
-    </Router>
   );
 };
