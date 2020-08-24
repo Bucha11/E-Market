@@ -1,23 +1,31 @@
 import React from "react";
 import s from "./Navigation.module.css";
+
+import {
+  BrowserRouter as Router,
+    NavLink
+} from "react-router-dom"
+
 export const Navigation = () => {
   return (
+    <Router>
     <div className={s.navigation}>
       <div>
-        <a href="#">Home</a>
+        <NavLink to='/home'>Home</NavLink>
       </div>
       <div>
-        <a href="#">Men</a>
+        <NavLink to='/men'>Men</NavLink>
       </div>
       <div>
-        <a href="#">Women</a>
+        <NavLink to='/women'>Women</NavLink>
       </div>
       <div>
-        <a href="#">Other</a>
+        <NavLink to='/other'>Other</NavLink>
       </div>
       <div>
-        <a href="#">Purchase</a>
+        <NavLink to='/purchase'>Purchase</NavLink>
       </div>
     </div>
+    </Router>
   );
 };

@@ -2,34 +2,25 @@ import React from "react";
 import { Card } from "./Card/Card";
 
 import s from "./MainContent.module.css";
+import { Route, Router} from "react-router-dom";
+import { Home } from "./Home/Home";
+import { MenContent } from "./MenContent/MenContent";
+import { OtherContent } from "./OtherContent/OtherContent";
+import { Purchase } from "./Purchase/Purchase";
+import { WomenContent } from "./WomenContent/WomenContent";
 export const MainContent = () => {
+  debugger
   return (
     <div>
-      <h2>featured products</h2>
-      <div className={s.wrapper}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
-
-      <h2>staff pick</h2>
-      <div className={s.wrapper}>
-        <Card />
-        <Card />
-        <Card />
-      </div>
-      <h2>new products</h2>
-      <div className={s.wrapper}>
-        <Card />
-        <Card />
-        <Card />
-      </div>
+      
+    <Router>
+  <Route path='/home' render={()=><Home/>}/>
+       <Route path='/men'><MenContent/></Route>
+       <Route path='/other'><OtherContent/></Route>
+       <Route path='/purchase'><Purchase/></Route>
+       <Route path='/women'><WomenContent/></Route>
+     
+       </Router>
     </div>
   );
 };
