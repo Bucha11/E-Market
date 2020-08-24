@@ -1,0 +1,7 @@
+.searchBar input {
+  min-width: 118px;
+  padding: 5px;
+  font-size: 13px;
+  color: #f1f1f1;
+  border: 1px solid #c6c6c6;
+}

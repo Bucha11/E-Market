@@ -1,0 +1,25 @@
+.wrapper {
+  background-color: #0b4b5a;
+}
+
+.mainFooter {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #39a0b9;
+  height: 60px;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 13px;
+}
+
+.menu a {
+  color: #39a0b9;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 0 20px;
+  border-right: 1px solid #39a0b9;
+}

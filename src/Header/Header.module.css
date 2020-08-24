@@ -1,0 +1,24 @@
+.wrapper {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-column-end: 4;
+  background-color: #4cb1ca;
+}
+
+.header {
+  height: 100%;
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  border-right: 1px solid white;
+  padding: 0 15px;
+  font-size: 13px;
+}

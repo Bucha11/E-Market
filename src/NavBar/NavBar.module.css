@@ -1,0 +1,11 @@
+.wrapper {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-column-end: 3;
+
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}

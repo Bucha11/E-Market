@@ -1,0 +1,71 @@
+.contacts {
+  width: 1024px;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.wrapper {
+  background-color: #39a0b9;
+}
+
+.contacts h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.facebook {
+  width: 233px;
+}
+.twitter {
+  width: 230px;
+}
+
+.tweet p {
+  width: 165px;
+}
+.tweet {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  background-color: white;
+  text-align: center;
+}
+.information {
+  width: 200px;
+}
+.information ul {
+  list-style: none;
+  padding: 0;
+}
+
+.information ul li::before {
+  content: ">";
+
+  margin-right: 10px;
+}
+
+.information ul li {
+  padding-top: 10px;
+}
+
+.fbButton {
+  padding: 25px;
+}
+
+.socialButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialButton .icon {
+  width: 35px;
+  height: 35px;
+}
