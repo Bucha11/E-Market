@@ -1,0 +1,198 @@
+{"data":{
+  "men": [
+    {
+      "id": 1,
+      "name": "Man Glasses1",
+      "price": "543",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"true"
+    },
+    {
+      "id": 2,
+      "name": "Man Glasses2",
+      "price": "3221",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"true"
+    },
+    {
+      "id": 3,
+      "name": "Man Glasses3",
+      "price": "223",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"true"
+    },
+    {
+      "id": 4,
+      "name": "Man Glasses4",
+      "price": "231",
+      "img":"img1.jpg",
+      "new":"true",
+      "staff":"false",
+      "featured":"false"
+    },
+    {
+      "id": 5,
+      "name": "Man Glasses5",
+      "price": "543",
+      "img":"img1.jpg",
+      "new":"true",
+      "staff":"false",
+      "featured":"false"
+    },
+    {
+      "id": 6,
+      "name": "Man Glasses6",
+      "price": "333",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"true",
+      "featured":"false"
+    },    {
+      "id": 7,
+      "name": "Man Glasses7",
+      "price": "543",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"true",
+      "featured":"false"
+    }
+  ],
+"women": [
+    {
+      "id": 1,
+      "name": "Woman Glasses1",
+      "price": "345",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"true"
+    },
+    {
+      "id": 2,
+      "name": "Woman Glasses2",
+      "price": "344",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"true"
+    },
+    {
+      "id": 3,
+      "name": "Woman Glasses3",
+      "price": "3345",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"true"
+    },
+    {
+      "id": 4,
+      "name": "Woman Glasses4",
+      "price": "2345",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"true",
+      "featured":"false"
+    },
+    {
+      "id": 5,
+      "name": "Woman Glasses5",
+      "price": "3465",
+      "img":"img1.jpg",
+      "new":"true",
+      "staff":"false",
+      "featured":"false"
+    },
+    {
+      "id": 6,
+      "name": "Woman Glasses6",
+      "price": "5345",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"false"
+    },
+    {
+      "id": 7,
+      "name": "Woman Glasses7",
+      "price": "3745",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"false"
+    },
+    {
+      "id": 8,
+      "name": "Woman Glasses8",
+      "price": "3495",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"false"
+    }
+  ],
+"other": [
+    {
+      "id": 1,
+      "name": "OtherStaff1",
+      "price": "22",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"false"
+    },
+    {
+      "id": 2,
+      "name": "OtherStaff2",
+      "price": "221",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"false"
+    },
+    {
+      "id": 3,
+      "name": "OtherStaff3",
+      "price": "2221",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"false"
+    }
+  ],
+"purchase": [    {
+      "id": 1,
+      "name": "Purchase1",
+      "price": "11",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"false"
+    },
+    {
+      "id": 2,
+      "name": "Purchase2",
+      "price": "111",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"false"
+    },
+    {
+      "id": 3,
+      "name": "Purchase3",
+      "price": "1111",
+      "img":"img1.jpg",
+      "new":"false",
+      "staff":"false",
+      "featured":"false"
+    }
+  ]
+}
+}

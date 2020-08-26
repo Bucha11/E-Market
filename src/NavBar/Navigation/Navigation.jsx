@@ -14,8 +14,7 @@ export const Navigation = () => {
       </div>
       <div>
         <NavLink to="/men" activeClassName={s.active}>
-          {" "}
-          Men
+             Men
         </NavLink>
       </div>
       <div>
