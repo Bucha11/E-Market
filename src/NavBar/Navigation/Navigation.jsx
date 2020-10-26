@@ -4,17 +4,16 @@ import s from "./Navigation.module.css";
 import { BrowserRouter as Router, NavLink } from "react-router-dom";
 
 export const Navigation = () => {
-  debugger;
   return (
     <div className={s.navigation}>
       <div>
-        <NavLink to="/home" activeClassName={s.active}>
+        <NavLink exact to="/" activeClassName={s.active}>
           Home
         </NavLink>
       </div>
       <div>
         <NavLink to="/men" activeClassName={s.active}>
-             Men
+          Men
         </NavLink>
       </div>
       <div>

@@ -12,7 +12,7 @@ export const MainContent = () => {
   debugger;
   return (
     <div>
-      <Route path="/home">
+      <Route path="/">
         <Home />
       </Route>
       <Route path="/men">

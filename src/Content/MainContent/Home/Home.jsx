@@ -1,19 +1,22 @@
 import React, { useEffect } from "react";
 import { Card } from "../Card/Card";
-import {setHomeItems} from '../../../Redux/Reducers/homeReducer'
+import { setHomeItems } from "../../../Redux/Reducers/homeReducer";
 
 import s from "./Home.module.css";
 import { useDispatch, useSelector } from "react-redux";
 export const Home = () => {
-  const dispatch=useDispatch()
-  useEffect(()=>{dispatch(setHomeItems())})
-  debugger
-const men=useSelector(state=>state.items.men)
-const women=useSelector(state=>state.items.women)
-const other=useSelector(state=>state.items.other)
-const purchase=useSelector(state=>state.item.purchase)
-const allItems=[...men,...women,...other,...purchase]
-console.log(allItems)
+  const dispatch = useDispatch();
+  useEffect(() => {
+    debugger;
+    dispatch(setHomeItems());
+  }, []);
+  debugger;
+  const men = useSelector((state) => state.home.men);
+  const women = useSelector((state) => state.home.women);
+  const other = useSelector((state) => state.home.other);
+  const purchase = useSelector((state) => state.home.purchase);
+  const allItems = [...men, ...women, ...other, ...purchase];
+  console.log(allItems);
   return (
     <div>
       <h2>featured products</h2>
