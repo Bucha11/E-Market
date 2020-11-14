@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./Navigation.module.css";
 
-import { BrowserRouter as Router, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export const Navigation = () => {
   return (

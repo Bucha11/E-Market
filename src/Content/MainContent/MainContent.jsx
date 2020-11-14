@@ -1,6 +1,4 @@
 import React from "react";
-import { Card } from "./Card/Card";
-
 import s from "./MainContent.module.css";
 import { Route, Router } from "react-router-dom";
 import { Home } from "./Home/Home";
@@ -9,7 +7,7 @@ import { OtherContent } from "./OtherContent/OtherContent";
 import { Purchase } from "./Purchase/Purchase";
 import { WomenContent } from "./WomenContent/WomenContent";
 export const MainContent = () => {
-  debugger;
+ 
   return (
     <div>
       <Route path="/">

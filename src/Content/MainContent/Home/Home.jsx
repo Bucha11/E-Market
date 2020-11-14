@@ -7,10 +7,10 @@ import { useDispatch, useSelector } from "react-redux";
 export const Home = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    debugger;
+   
     dispatch(setHomeItems());
   }, []);
-  debugger;
+  
   const men = useSelector((state) => state.home.men);
   const women = useSelector((state) => state.home.women);
   const other = useSelector((state) => state.home.other);
@@ -19,6 +19,8 @@ export const Home = () => {
   console.log(allItems);
   return (
     <div>
+
+
       <h2>featured products</h2>
       <div className={s.wrapper}>
         <Card />
