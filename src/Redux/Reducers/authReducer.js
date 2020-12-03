@@ -1,29 +1,32 @@
-import {firebaseSignIn, firebaseSignUp} from '../../API/Auth';
+import {firebaseIsAuth, firebaseSignIn, firebaseSignUp} from '../../API/Auth';
+import firebase from "firebase"
 const LOGIN='LOGIN'
 const SIGNUP="SIGNUP"
+const IS_AUTH='ISAUTH'
 
 const initialState = {
-  login:'',
-  password:''
+   isAuth:false,
+   email:''
 };
 
 export const authReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOGIN:
-      let {login,password}=action.payload
-
-      
+         
 return{
-...state,
-login:login,
-password:password
+state
+
 }
 case SIGNUP:
   return state
     default:
       return state;
+
+case IS_AUTH:
+
+return{...state,isAuth:true,email:action.payload
   }
-};
+};}
 
 const login = (payload) => {
 
@@ -41,16 +44,35 @@ const signUp = () => {
   };
 };
 
-export const loginThunk = (payload) => (dispatch) => {
+const isAuth=(payload)=>{debugger
+  return {
+    type:IS_AUTH,
+    payload
+
+  }
+}
+
+export const loginThunk = (payload) =>async (dispatch) => {
   const {email,password}=payload
-firebaseSignIn(email,password)
+  await firebaseSignIn(email,password)
+  
     dispatch(login(payload));
 };
 
-export const signUpThunk=(payload)=>(dispatch)=>{
-  debugger
+export const signUpThunk=(payload)=>async (dispatch) =>{
+  
   const {email,password}=payload
-  firebaseSignUp(email,password)
+  await firebaseSignUp(email,password)
 
-  dispatch(signUp)
+  dispatch(signUp())
+}
+
+export const isAuthThunk=()=>(dispatch)=>{
+ debugger
+firebase.auth().onAuthStateChanged(
+  (user)=>{if (user){dispatch(isAuth(user))}
+})
+
+  
+
 }

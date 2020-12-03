@@ -17,10 +17,10 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 }
-export const firebaseSignUp=async (email,password)=>{
+export const firebaseSignUp=(email,password)=>{
     debugger
     try {
-        return firebase.auth().createUserWithEmailAndPassword(email, password);
+       return  firebase.auth().createUserWithEmailAndPassword(email, password);
     } catch (error) {
         // Handle Errors here.
         var errorMessage = error.message;
@@ -29,12 +29,20 @@ export const firebaseSignUp=async (email,password)=>{
     
      }
 
-     export const  firebaseSignIn=async (email,password)=>{
-        debugger
+     export const  firebaseSignIn= (email,password)=>{
+       
         try {
-             return firebase.auth().signInWithEmailAndPassword(email, password);
+             return  firebase.auth().signInWithEmailAndPassword(email, password);
          } catch (error) {
              // Handle Errors here.
              var errorMessage = error.message;
              alert(errorMessage);
          }};
+
+export const firebaseSignOut=()=>{ try{
+         return firebase.auth().signOut()}
+         catch(error) {
+           let  errorMessage = error.message;
+           alert(errorMessage);
+          }}
+

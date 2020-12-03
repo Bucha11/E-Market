@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./MainContent.module.css";
-import { Route, Router } from "react-router-dom";
+import { Route } from "react-router-dom";
 import { Home } from "./Home/Home";
 import { MenContent } from "./MenContent/MenContent";
 import { OtherContent } from "./OtherContent/OtherContent";
@@ -10,11 +10,11 @@ export const MainContent = () => {
  
   return (
     <div>
-      <Route path="/">
+      <Route exact path="/">
         <Home />
       </Route>
       <Route path="/men">
-        <MenContent />
+        <MenContent/>
       </Route>
       <Route path="/other">
         <OtherContent />

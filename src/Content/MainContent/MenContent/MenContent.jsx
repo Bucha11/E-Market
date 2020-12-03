@@ -3,7 +3,7 @@ import React from "react";
 
 import s from "./MenContent.module.css";
 export const MenContent = () => {
-
+debugger
 
   return (
     <div>

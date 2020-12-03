@@ -3,6 +3,7 @@ import { itemsApi } from "../../API/API";
 const SET_HOME_ITEMS = "SET_HOME_ITEMS";
 
 const initialState = {
+  all:[],
   men: [],
   women: [],
   other: [],
@@ -12,15 +13,11 @@ const initialState = {
 export const homeReducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_HOME_ITEMS:
-      const { men, women, other, purchase } = action.items;
-
-      debugger;
-      return {
+     
+            return {
         ...state,
-        men: [...state.men, ...men],
-        women: [...state.women, ...women],
-        other: [...state.other, ...other],
-        purchase: [...state.purchase, ...purchase],
+        all:[...action.items]
+ 
       };
 
     default:

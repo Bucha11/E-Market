@@ -4,15 +4,15 @@ import s from "./Card.module.css";
 import { FaShoppingBasket } from "react-icons/fa";
 import { IconContext } from "react-icons";
 
-export const Card = () => {
+export const Card = (props) => {
   return (
     <div className={s.card}>
       <div className={s.wrapper}>
-        <img src={gla} alt="glasses"></img>
+        <img src={props.img} alt="glasses"></img>
         <div className={s.cardText}>
           <div className={s.desc}>
-            <p>Sungalsses at Night</p>
-            <p className={s.price}>$380.00</p>
+            <p>{props.name}</p>
+            <p className={s.price}>{props.price}</p>
           </div>
           <IconContext.Provider
             value={{

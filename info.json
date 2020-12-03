@@ -1,5 +1,5 @@
-{"data":{
-  "men": [
+{"data":
+   [
     {
       "id": 1,
       "name": "Man Glasses1",
@@ -7,7 +7,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"true"
+      "featured":"true",
+      "category":"men"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"true"
+      "featured":"true",
+      "category":"men"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"true"
+      "featured":"true",
+      "category":"men"
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "img":"img1.jpg",
       "new":"true",
       "staff":"false",
-      "featured":"false"
+      "featured":"false",
+      "category":"men"
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "img":"img1.jpg",
       "new":"true",
       "staff":"false",
-      "featured":"false"
+      "featured":"false",
+      "category":"men"
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"true",
-      "featured":"false"
+      "featured":"false",
+      "category":"men"
     },    {
       "id": 7,
       "name": "Man Glasses7",
@@ -60,10 +66,10 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"true",
-      "featured":"false"
+      "featured":"false",
+      "category":"men"
     }
-  ],
-"women": [
+ ,
     {
       "id": 1,
       "name": "Woman Glasses1",
@@ -71,7 +77,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"true"
+      "featured":"true",
+      "category":"women"
     },
     {
       "id": 2,
@@ -80,7 +87,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"true"
+      "featured":"true",
+      "category":"women"
     },
     {
       "id": 3,
@@ -89,7 +97,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"true"
+      "featured":"true",
+      "category":"women"
     },
     {
       "id": 4,
@@ -98,7 +107,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"true",
-      "featured":"false"
+      "featured":"false",
+      "category":"women"
     },
     {
       "id": 5,
@@ -107,7 +117,8 @@
       "img":"img1.jpg",
       "new":"true",
       "staff":"false",
-      "featured":"false"
+      "featured":"false",
+      "category":"women"
     },
     {
       "id": 6,
@@ -116,7 +127,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"false"
+      "featured":"false",
+      "category":"women"
     },
     {
       "id": 7,
@@ -125,7 +137,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"false"
+      "featured":"false",
+      "category":"women"
     },
     {
       "id": 8,
@@ -134,10 +147,10 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"false"
+      "featured":"false",
+      "category":"women"
     }
-  ],
-"other": [
+ ,
     {
       "id": 1,
       "name": "OtherStaff1",
@@ -145,7 +158,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"false"
+      "featured":"false",
+      "category":"other"
     },
     {
       "id": 2,
@@ -154,7 +168,8 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"false"
+      "featured":"false",
+      "category":"other"
     },
     {
       "id": 3,
@@ -163,36 +178,10 @@
       "img":"img1.jpg",
       "new":"false",
       "staff":"false",
-      "featured":"false"
-    }
-  ],
-"purchase": [    {
-      "id": 1,
-      "name": "Purchase1",
-      "price": "11",
-      "img":"img1.jpg",
-      "new":"false",
-      "staff":"false",
-      "featured":"false"
-    },
-    {
-      "id": 2,
-      "name": "Purchase2",
-      "price": "111",
-      "img":"img1.jpg",
-      "new":"false",
-      "staff":"false",
-      "featured":"false"
-    },
-    {
-      "id": 3,
-      "name": "Purchase3",
-      "price": "1111",
-      "img":"img1.jpg",
-      "new":"false",
-      "staff":"false",
-      "featured":"false"
+      "featured":"false",
+      "category":"other"
     }
   ]
-}
+
+
 }

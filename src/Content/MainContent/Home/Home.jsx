@@ -10,28 +10,16 @@ export const Home = () => {
    
     dispatch(setHomeItems());
   }, []);
-  
-  const men = useSelector((state) => state.home.men);
-  const women = useSelector((state) => state.home.women);
-  const other = useSelector((state) => state.home.other);
-  const purchase = useSelector((state) => state.home.purchase);
-  const allItems = [...men, ...women, ...other, ...purchase];
-  console.log(allItems);
-  return (
+
+  const allItems = useSelector((state) => state.home.all)
+const featured=allItems.filter(i=>i.featured==='true').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price}/>)})
+return (
     <div>
 
 
       <h2>featured products</h2>
       <div className={s.wrapper}>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {featured}
       </div>
 
       <h2>staff pick</h2>
