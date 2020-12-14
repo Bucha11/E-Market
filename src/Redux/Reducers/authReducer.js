@@ -70,7 +70,7 @@ export const signUpThunk=(payload)=>async (dispatch) =>{
 export const isAuthThunk=()=>(dispatch)=>{
  debugger
 firebase.auth().onAuthStateChanged(
-  (user)=>{if (user){dispatch(isAuth(user))}
+  (user)=>{if (user){console.log(user)}
 })
 
   

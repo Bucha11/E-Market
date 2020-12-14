@@ -32,7 +32,7 @@ const setItems = (items) => {
   };
 };
 
-export const setHomeItems = () => async (dispatch) => {
+export const setItemsThunk = () => async (dispatch) => {
   debugger;
   const items = await itemsApi.getHomeItems();
   dispatch(setItems(items));

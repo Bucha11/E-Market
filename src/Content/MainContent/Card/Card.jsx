@@ -8,11 +8,11 @@ export const Card = (props) => {
   return (
     <div className={s.card}>
       <div className={s.wrapper}>
-        <img src={props.img} alt="glasses"></img>
+        <img src={gla} alt="glasses"></img>
         <div className={s.cardText}>
           <div className={s.desc}>
             <p>{props.name}</p>
-            <p className={s.price}>{props.price}</p>
+            <p className={s.price}>${props.price}</p>
           </div>
           <IconContext.Provider
             value={{

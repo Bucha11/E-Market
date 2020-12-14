@@ -4,7 +4,6 @@ import { Route } from "react-router-dom";
 import { Home } from "./Home/Home";
 import { MenContent } from "./MenContent/MenContent";
 import { OtherContent } from "./OtherContent/OtherContent";
-import { Purchase } from "./Purchase/Purchase";
 import { WomenContent } from "./WomenContent/WomenContent";
 export const MainContent = () => {
  
@@ -19,10 +18,7 @@ export const MainContent = () => {
       <Route path="/other">
         <OtherContent />
       </Route>
-      <Route path="/purchase">
-        <Purchase />
-      </Route>
-      <Route path="/women">
+            <Route path="/women">
         <WomenContent />
       </Route>
     </div>

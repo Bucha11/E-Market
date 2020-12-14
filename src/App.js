@@ -9,10 +9,15 @@ import { BrowserRouter } from "react-router-dom";
 import { firebaseInitial } from "./API/Auth";
 import { isAuthThunk } from "./Redux/Reducers/authReducer";
 import { useDispatch } from "react-redux";
+import { setItemsThunk } from "./Redux/Reducers/homeReducer";
 
 
 function App() {
   const dispatch=useDispatch()
+    useEffect(() => {
+   
+    dispatch(setItemsThunk());
+  }, []);
   useEffect(()=>{firebaseInitial() },[])
   useEffect(()=>{dispatch(isAuthThunk())},[])
   return (

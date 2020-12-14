@@ -26,11 +26,6 @@ export const Navigation = () => {
           Other
         </NavLink>
       </div>
-      <div>
-        <NavLink to="/purchase" activeClassName={s.active}>
-          Purchase
-        </NavLink>
       </div>
-    </div>
   );
 };
