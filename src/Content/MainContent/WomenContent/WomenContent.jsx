@@ -7,7 +7,7 @@ import s from "./WomenContent.module.css";
 export const WomenContent = () => {
   const allItems = useSelector((state) => state.home.all)
 
-const womenGlasses=allItems.filter(i=>i.category==='women').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price}/>)})
+const womenGlasses=allItems.filter(i=>i.category==='women').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price} id={i.id}/>)})
   return (
     <div>
       <h2>Women Glasses</h2>

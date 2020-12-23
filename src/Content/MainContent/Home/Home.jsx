@@ -9,9 +9,9 @@ export const Home = () => {
 
 
   const allItems = useSelector((state) => state.home.all)
-const featured=allItems.filter(i=>i.featured==='true').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price}/>)})
-const staff=allItems.filter(i=>i.staff==='true').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price}/>)})
-const newGlasses=allItems.filter(i=>i.new==='true').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price}/>)})
+const featured=allItems.filter(i=>i.featured==='true').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price} id={i.id}/>)})
+const staff=allItems.filter(i=>i.staff==='true').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price} id={i.id}/>)})
+const newGlasses=allItems.filter(i=>i.new==='true').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price} id={i.id}/>)})
 return (
     <div>
 

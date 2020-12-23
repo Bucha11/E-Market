@@ -7,7 +7,7 @@ import s from "./OtherContent.module.css";
 export const OtherContent = () => {
   const allItems = useSelector((state) => state.home.all)
 
-const other=allItems.filter(i=>i.category==='other').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price}/>)})
+const other=allItems.filter(i=>i.category==='other').map(i=>{return (<Card name={i.name} category={i.category} key={i.id} img={i.img} price={i.price} id={i.id}/>)})
   return (
     <div>
       <h2>Other</h2>

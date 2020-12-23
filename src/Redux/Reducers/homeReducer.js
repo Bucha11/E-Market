@@ -25,6 +25,8 @@ export const homeReducer = (state = initialState, action) => {
   }
 };
 
+
+
 const setItems = (items) => {
   return {
     type: SET_HOME_ITEMS,

@@ -3,8 +3,12 @@ import gla from "../../../img/cart_id_1.png";
 import s from "./Card.module.css";
 import { FaShoppingBasket } from "react-icons/fa";
 import { IconContext } from "react-icons";
+import {addToCart} from '../../../Redux/Reducers/cartReducer'
+import { useDispatch } from "react-redux";
 
 export const Card = (props) => {
+
+  const dispatch=useDispatch()
   return (
     <div className={s.card}>
       <div className={s.wrapper}>
@@ -22,13 +26,13 @@ export const Card = (props) => {
                 width: "30px",
                 height: "30px",
 
-                marginTop: "10px",
+               
               },
             }}
           >
-            <div className={s.btn}>
+            <button className={s.btn} onClick={(e)=>{dispatch(addToCart(props))}}>
               <FaShoppingBasket />
-            </div>
+            </button>
           </IconContext.Provider>
         </div>
       </div>
