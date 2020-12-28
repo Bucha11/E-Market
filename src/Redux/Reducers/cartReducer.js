@@ -9,6 +9,8 @@ export const cartReducer = (state = initialState, action) => {
         case ADD_TO_CART:
             return{
                 ...state,cart:[...state.cart,action.item]
+                
+                
             }
 
         case DELETE_FROM_CART:
@@ -22,10 +24,10 @@ export const cartReducer = (state = initialState, action) => {
        const total=action.payload.itemsValue*action.payload.price
         const count=action.payload.itemsValue
 return {...state,
-    total:state.total+total,
+
 cart:state.cart.map(i=>{
     if(i.id===action.payload.id){
-        return{...i,count}
+        return{...i,count,total}
     }
     return i
 })}
