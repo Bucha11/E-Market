@@ -30,7 +30,7 @@ export const Card = (props) => {
               },
             }}
           >
-            <button className={s.btn} onClick={(e)=>{dispatch(addToCart(props))}}>
+            <button className={s.btn} onClick={()=>{dispatch(addToCart(props))}}>
               <FaShoppingBasket />
             </button>
           </IconContext.Provider>

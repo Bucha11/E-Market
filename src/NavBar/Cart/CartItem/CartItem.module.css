@@ -1,0 +1,30 @@
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid grey;
+  padding: 5px;
+}
+
+.cartItem input {
+  width: 30px;
+
+  padding: 5px;
+  text-align: center;
+}
+
+.cartItem button {
+  background-color: #7db122;
+  border-radius: 30px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 120px;
+}
