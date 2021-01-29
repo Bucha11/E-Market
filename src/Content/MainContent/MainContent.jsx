@@ -8,7 +8,7 @@ import { WomenContent } from "./WomenContent/WomenContent";
 export const MainContent = () => {
  
   return (
-    <div>
+    <>
       <Route exact path="/">
         <Home />
       </Route>
@@ -21,6 +21,6 @@ export const MainContent = () => {
             <Route path="/women">
         <WomenContent />
       </Route>
-    </div>
+    </>
   );
 };

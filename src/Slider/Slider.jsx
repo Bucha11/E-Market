@@ -9,11 +9,13 @@ const AutoplaySlider = withAutoplay(AwesomeSlider);
 
 const slider = (
   <AutoplaySlider
-    style={{ height: "475px" }}
+    style={{ height: "475px",
+  width:'100%' }}
     play={true}
     cancelOnInteraction={false} // should stop playing on user interaction
     interval={3000}
     bullets={false}
+    
   >
     <div data-src={Slider1} />
     <div data-src={Slider1} />

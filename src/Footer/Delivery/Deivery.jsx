@@ -12,10 +12,10 @@ export const Delivery = () => {
             value={{
               style: {
                 color: "#4cb1ca",
-                verticalAlign: "bottom",
+                verticalAlign: "center",
 
-                width: "45px",
-                height: "45px",
+                width: "2em",
+                height: "2em",
               },
             }}
           >
@@ -23,17 +23,17 @@ export const Delivery = () => {
               <FaTruck />
             </div>
           </IconContext.Provider>
-          Free shipping on orders over $100
+          <p>Free shipping on orders over $100</p>
         </div>
         <div className={s.call}>
           <IconContext.Provider
             value={{
               style: {
                 color: "#4cb1ca",
-                verticalAlign: "bottom",
+                verticalAlign: "top",
 
-                width: "45px",
-                height: "45px",
+                width: "2em",
+                height: "2em",
               },
             }}
           >
@@ -41,7 +41,7 @@ export const Delivery = () => {
               <FaPhoneAlt />
             </div>
           </IconContext.Provider>
-          Call us! Toll free - 409-8888-00999
+          <p>Call us! Toll free - 409-8888-00999</p>
         </div>
       </div>
     </div>

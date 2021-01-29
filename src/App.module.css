@@ -1,5 +1,3 @@
 .App {
-  display: grid;
-  grid-template-columns: 1fr 1024px 1fr;
-  grid-template-rows: 46px;
+  font-size: 14px;
 }

@@ -1,7 +1,17 @@
 .searchBar input {
-  min-width: 118px;
-  padding: 5px;
-  font-size: 13px;
-  color: #f1f1f1;
+  min-width: 8em;
+  padding: 0.1em;
+  font-size: 1em;
+  color: #656565;
   border: 1px solid #c6c6c6;
+}
+
+@media (max-width: 640px) {
+  .searchBar input {
+    width: 100%;
+    padding: 0.3em;
+  }
+  .searchBar {
+    margin: 5%;
+  }
 }

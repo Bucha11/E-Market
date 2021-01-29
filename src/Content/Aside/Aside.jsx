@@ -4,9 +4,9 @@ import { Subscribe } from "./Subscribe/Subscribe";
 
 export const Aside = () => {
   return (
-    <div>
+    <>
       <Carousel />
       <Subscribe />
-    </div>
+    </>
   );
 };

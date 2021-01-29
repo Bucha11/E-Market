@@ -23,8 +23,8 @@ export const Card = (props) => {
               style: {
                 color: "white",
                 verticalAlign: "middle",
-                width: "30px",
-                height: "30px",
+                width: "2em",
+                height: "2em",
 
                
               },

@@ -1,4 +1,4 @@
-.card {
+/* .card {
   border: 1px solid #f5f5f5;
   padding: 10px;
 }
@@ -25,4 +25,48 @@
 .price {
   color: #7db122;
   font-size: 20px;
+} */
+
+.desc .price {
+  color: #7db122;
+  font-size: 1.5em;
+}
+.btn {
+  background-color: #7db122;
+  border-radius: 3em;
+  width: 4em;
+  height: 4em;
+  border: none;
+  text-align: center;
+}
+
+.desc p {
+  font-size: 1.2em;
+}
+
+.cardText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.card {
+  max-width: 210px;
+  border: 1px solid #f5f5f5;
+  padding: 1em;
+
+  margin-bottom: 1em;
+}
+.card img {
+  height: auto;
+  width: 100%;
+
+  max-width: 210px;
+}
+
+@media (max-width: 870px) {
+  .card {
+    margin: 0 auto;
+    width: 50%;
+  }
 }

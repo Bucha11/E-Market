@@ -22,3 +22,9 @@
   border-top: 3px solid #4cb1ca;
   margin-top: 50px;
 }
+
+@media (max-width: 640px) {
+  .wrapper {
+    display: none;
+  }
+}

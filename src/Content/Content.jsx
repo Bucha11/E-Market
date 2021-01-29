@@ -7,8 +7,8 @@ export const Content = () => {
   return (
     <div className={s.wrapper}>
       <div className={s.content}>
-        <MainContent />
-        <Aside />
+        <div className={s.mainContent}><MainContent /></div>
+        <div className={s.aside}><Aside /></div>
       </div>
     </div>
   );

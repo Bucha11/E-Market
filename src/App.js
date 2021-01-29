@@ -23,7 +23,7 @@ function App() {
   return (
     <div className={s.App}>
       <BrowserRouter>
-      <Header />
+     
       <NavBar />
       <Slider />
       <Content />

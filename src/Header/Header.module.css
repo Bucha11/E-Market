@@ -1,24 +1,19 @@
 .wrapper {
-  grid-row-start: 1;
-  grid-column-start: 1;
-  grid-row-end: 2;
-  grid-column-end: 4;
-  background-color: #4cb1ca;
+  background-color: royalblue;
 }
 
 .header {
-  height: 100%;
-  width: 1024px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 .headerButton {
-  color: white;
-  border: 1px solid white;
-  padding: 10px;
-  font-size: 13px;
-  height: 100%;
-  margin-left: 10px;
+}
+@media (max-width: 640px) {
+  .header {
+    border: 1px solid red;
+  }
+  .headerButton {
+    display: inline-block;
+    font-size: 0.7em;
+    padding: 0.1em;
+    border: 1px solid black;
+  }
 }

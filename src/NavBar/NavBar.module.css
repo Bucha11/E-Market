@@ -1,11 +1,32 @@
-.wrapper {
-  grid-row-start: 2;
-  grid-column-start: 2;
-  grid-row-end: 3;
-  grid-column-end: 3;
+@media (max-width: 870px) {
+  .wrapper {
+    width: 100%;
+  }
+  h1 {
+    display: block;
+    width: 5em;
+    font-size: 2em;
+    text-align: center;
+    margin: 0.6em auto;
+  }
+}
 
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
-  align-items: center;
+@media (max-width: 1280px) and (min-width: 870px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

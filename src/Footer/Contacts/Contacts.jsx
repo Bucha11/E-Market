@@ -20,10 +20,10 @@ export const Contacts = () => {
               value={{
                 style: {
                   color: "#4cb1ca",
-                  verticalAlign: "bottom",
-                  marginTop: "10px",
-                  width: "25px",
-                  height: "25px",
+                  verticalAlign: "top",
+                 
+                  width: "2em",
+                  height: "2em",
                 },
               }}
             >
@@ -31,7 +31,7 @@ export const Contacts = () => {
                 <FaFacebookF />
               </div>
             </IconContext.Provider>
-            SHARE IT
+            <p>SHARE IT</p>
           </div>
         </div>
         <div className={s.twitter}>
@@ -42,9 +42,9 @@ export const Contacts = () => {
                 style: {
                   color: "#4cb1ca",
                   verticalAlign: "bottom",
-                  marginTop: "10px",
-                  width: "25px",
-                  height: "25px",
+                 
+                  width: "2em",
+                  height: "2em",
                 },
               }}
             >
@@ -63,9 +63,9 @@ export const Contacts = () => {
                 style: {
                   color: "#4cb1ca",
                   verticalAlign: "bottom",
-                  marginTop: "10px",
-                  width: "25px",
-                  height: "25px",
+                  
+                  width: "2em",
+                  height: "2em",
                 },
               }}
             >
@@ -103,10 +103,10 @@ export const Contacts = () => {
               value={{
                 style: {
                   color: "#4cb1ca",
-                  verticalAlign: "bottom",
-                  marginTop: "5px",
-                  width: "25px",
-                  height: "25px",
+                  verticalAlign: "center",
+                  
+                  width: "1.5em",
+                  height: "1.5em",
                 },
               }}
             >
@@ -118,10 +118,10 @@ export const Contacts = () => {
               value={{
                 style: {
                   color: "#4cb1ca",
-                  verticalAlign: "bottom",
-                  marginTop: "5px",
-                  width: "25px",
-                  height: "25px",
+                  verticalAlign: "center",
+                  
+                  width: "1.5em",
+                  height: "1.5em",
                 },
               }}
             >
@@ -133,10 +133,9 @@ export const Contacts = () => {
               value={{
                 style: {
                   color: "#4cb1ca",
-                  verticalAlign: "bottom",
-                  marginTop: "5px",
-                  width: "25px",
-                  height: "25px",
+                  verticalAlign: "center",
+                   width: "1.5em",
+                  height: "1.5em",
                 },
               }}
             >

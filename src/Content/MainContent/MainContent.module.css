@@ -1,13 +1,16 @@
 .wrapper {
-  display: grid;
-  grid-template-columns: 230px 230px 230px;
-  grid-gap: 25px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.2em;
+  color: #656565;
   text-transform: uppercase;
-  color: #97948f;
-  font-weight: regular;
-  margin-top: 45px;
+}
+
+@media (max-width: 870px) {
+  h2 {
+    font-size: 1.2em;
+    color: #656565;
+    text-transform: uppercase;
+  }
 }
