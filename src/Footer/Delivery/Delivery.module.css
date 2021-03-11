@@ -1,29 +1,35 @@
-/* .delivery {
+@media (min-width: 1000px) {
+  .delivery {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .delivery div {
+    padding: 20px;
+    color: white;
+    font-size: 21px;
+    text-transform: uppercase;
+    display: flex;
+  }
+
+  .wrapper {
+    background-color: #4cb1ca;
+  }
+
+  .icon {
+    background-color: white;
+    height: 45px;
+    width: 45px;
+    color: #4cb1ca;
+    border-radius: 45px;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 20px;
+  }
 }
 
-.delivery div {
-  padding: 20px;
-  color: white;
-  font-size: 21px;
-  text-transform: uppercase;
-}
-
-.wrapper {
-  background-color: #4cb1ca;
-}
-
-.icon {
-  background-color: white;
-  height: 45px;
-  width: 45px;
-  color: #4cb1ca;
-  border-radius: 45px;
-  text-align: center;
-  vertical-align: middle;
-  margin-right: 20px;
-} */
-
-@media (max-width: 870px) {
+@media (max-width: 1000px) {
   .wrapper {
     background-color: #4cb1ca;
     padding: 1em;
